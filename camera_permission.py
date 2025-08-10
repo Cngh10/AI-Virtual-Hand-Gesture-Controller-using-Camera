@@ -31,14 +31,14 @@ def check_macos_camera_permissions():
     if cap.isOpened():
         ret, frame = cap.read()
         if ret:
-            print("✅ Camera is accessible!")
+            print(" Camera is accessible!")
             cap.release()
             return True
         else:
-            print("⚠️  Camera opened but can't read frames")
+            print(" Camera opened but can't read frames")
             cap.release()
     else:
-        print("❌ Camera not accessible")
+        print(" Camera not accessible")
     
     return False
 
