@@ -19,7 +19,7 @@ class GestureDemo:
         
     def run_demo(self):
         """Run the demo with enhanced visualization and statistics"""
-        print("🎯 Hand Gesture Controller Demo")
+        print(" Hand Gesture Controller Demo")
         print("=" * 50)
         print("This demo will show you how to use hand gestures to control your computer.")
         print("Make sure you have good lighting and your hand is clearly visible.")
